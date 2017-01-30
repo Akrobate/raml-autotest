@@ -1,0 +1,27 @@
+{
+  "name": "raml-autotest",
+  "version": "0.0.1",
+  "description": "A tool for testing API with a RAML 1 specifications",
+  "main": "index.js",
+  "scripts": {
+    "test": "$(npm bin)/mocha \"test/**/*.test.js\" --recursive"
+  },
+  "keywords": [
+    "raml",
+    "raml1",
+    "test",
+    "raml",
+    "test",
+    "with",
+    "raml",
+    "test",
+    "api"
+  ],
+  "author": "Artiom FEDOROV <fedorov.artiom@yahoo.com>",
+  "license": "MIT",
+  "dependencies": {
+    "chai": "^3.5.0",
+    "mocha": "^3.2.0",
+    "raml-autoroute": "0.0.3"
+  }
+}
